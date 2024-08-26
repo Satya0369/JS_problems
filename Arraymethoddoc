@@ -1,0 +1,52 @@
+1. `push()`
+Adds one or more elements to the end of an array and returns the new length of the array.
+
+- Syntax:
+  
+  array.push(element1, ..., elementN)
+
+- Example:
+  
+  let arr = [1, 2, 3];
+  arr.push(4); // arr is now [1, 2, 3, 4]
+
+- Use Case:Adding new items to the end of an array, like appending data.
+
+2. `pop()`
+Removes the last element from an array and returns that element.
+
+- Syntax:
+  array.pop()
+  
+- Example:
+  let arr = [1, 2, 3];
+  let last = arr.pop(); // arr is now [1, 2], last is 3
+  ```
+- Use Case: Removing the last item from an array, like handling a stack.
+
+3. `shift()`
+Removes the first element from an array and returns that element.
+
+Syntax:
+  array.shift()
+
+Example:
+
+  let arr = [1, 2, 3];
+  let first = arr.shift(); // arr is now [2, 3], first is 1
+Use Case: Removing the first item from an array, like processing a queue.
+
+4. `unshift()`
+Adds one or more elements to the beginning of an array and returns the new length of the array.
+
+Syntax:
+ 
+  array.unshift(element1, ..., elementN)
+
+Example:
+ 
+  let arr = [2, 3];
+  arr.unshift(1); // arr is now [1, 2, 3]
+
+Use Case: Adding items to the start of an array, like prepending data.
+
