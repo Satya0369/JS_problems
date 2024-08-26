@@ -3,8 +3,11 @@ x.forEach(a => console.log(a))
 // append !
 z=['satya','sai','koppineni','ap']
 z.forEach(a => {
-    console.log(a.append("!"))
+    a=(a+"!")
+    console.log((a))
 } )
-
-
-
+// zz=z.map(a => {
+//     return a=(a+"!")
+    
+// } )
+// console.log(zz)
